@@ -107,3 +107,5 @@ app.delete("/todos/:todoId/", async (request, response) => {
   const changing = db.run(dbdetails);
   response.send(changing);
 });
+
+module.exports = app;
